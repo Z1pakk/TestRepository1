@@ -25,6 +25,7 @@ namespace LocalizationApp
                     string language = sr.ReadLine();
                     if (!string.IsNullOrEmpty(language))
                     {
+
                         Thread.CurrentThread.CurrentUICulture = new CultureInfo(language);
                     }
                    
